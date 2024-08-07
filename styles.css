@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+    background-color: #222;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%e;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.2rem;
+    height: 7rem;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i {
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    background-color: #007ced;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.header .link-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.links {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: #007ced;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.image {
+    width: 600px;
+}
+
+.image img {
+    width: 80%;
+    border-radius: 50%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(10%, 20%);
+    border: 20px solid #444444;
+}
+
+.content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content h5{
+    color: #e5e5e5;
+    font-size: 1.4rem;
+}
+
+.content h4 {
+    font-size: 4rem;
+    color: #007CED;
+    font-weight: 900;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #e5e5e5;
+}
+
+.content .buttons{
+    margin: 3rem 0;
+}
+
+.buttons a {
+    font-size: 1.4rem;
+    border: 4px solid white;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px -8px rgb(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.buttons .btn-active {
+    border-color: #007ced;
+}
+
+.buttons .btn {
+    margin-left: 2px;
+}
+
+.buttons a:hover {
+    border-color: #007CED;
+}
+
+.buttons .btn-active:hover {
+    border-color: #fff;
+}
+
+.icons {
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icons i {
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.icons i:hover {
+    color: #007ced;
+}
+
+
+
+
